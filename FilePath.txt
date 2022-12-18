@@ -1,0 +1,1 @@
+ConsoleLogPath = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConsoleLog.txt'

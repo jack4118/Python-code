@@ -1,0 +1,70 @@
+Line 243350: [2022-Oct-25 17:00:26.354][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 243730: [2022-Oct-25 17:02:08.325][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.972000s
+	Line 243739: [2022-Oct-25 17:02:21.607][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 12.978000s
+	Line 243756: [2022-Oct-25 17:02:21.977][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 0.062000s
+	Line 243775: [2022-Oct-25 17:02:22.291][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 0.005000s
+	Line 243786: [2022-Oct-25 17:02:30.126][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 7.528000s
+	Line 243803: [2022-Oct-25 17:02:48.572][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 18.137000s
+	Line 243814: [2022-Oct-25 17:02:52.726][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 3.847000s
+	Line 243831: [2022-Oct-25 17:02:53.109][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 0.075000s
+	Line 243912: [2022-Oct-25 17:03:02.831][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 244292: [2022-Oct-25 17:04:44.190][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.360000s
+	Line 244358: [2022-Oct-25 17:04:53.586][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 9.092000s
+	Line 244430: [2022-Oct-25 17:05:02.560][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 244810: [2022-Oct-25 17:06:45.256][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 102.695000s
+	Line 244851: [2022-Oct-25 17:06:51.123][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 5.563000s
+	Line 244917: [2022-Oct-25 17:07:00.347][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 245297: [2022-Oct-25 17:08:39.916][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 99.569000s
+	Line 245340: [2022-Oct-25 17:08:45.761][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 5.540000s
+	Line 245406: [2022-Oct-25 17:08:55.004][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 245786: [2022-Oct-25 17:10:35.773][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 100.769000s
+	Line 245835: [2022-Oct-25 17:10:42.500][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 6.421000s
+	Line 245901: [2022-Oct-25 17:10:52.286][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 246299: [2022-Oct-25 17:12:34.587][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 102.300000s
+	Line 246348: [2022-Oct-25 17:12:41.317][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 6.426000s
+	Line 246414: [2022-Oct-25 17:12:50.547][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 246818: [2022-Oct-25 17:14:33.106][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 102.559000s
+	Line 246867: [2022-Oct-25 17:14:39.843][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 6.432000s
+	Line 246933: [2022-Oct-25 17:14:49.096][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 247313: [2022-Oct-25 17:16:29.317][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 100.221000s
+	Line 247362: [2022-Oct-25 17:16:36.026][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 6.405000s
+	Line 247434: [2022-Oct-25 17:16:45.326][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 247814: [2022-Oct-25 17:18:26.106][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 100.781000s
+	Line 247869: [2022-Oct-25 17:18:34.192][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 7.779000s
+	Line 247935: [2022-Oct-25 17:18:43.582][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 248315: [2022-Oct-25 17:20:25.158][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.576000s
+	Line 248364: [2022-Oct-25 17:20:33.037][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 7.575000s
+	Line 248430: [2022-Oct-25 17:20:42.108][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 248816: [2022-Oct-25 17:22:23.367][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.259000s
+	Line 248871: [2022-Oct-25 17:22:31.410][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 7.740000s
+	Line 248937: [2022-Oct-25 17:22:40.650][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 249317: [2022-Oct-25 17:24:21.667][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.017000s
+	Line 249372: [2022-Oct-25 17:24:29.727][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 7.755000s
+	Line 249438: [2022-Oct-25 17:24:38.810][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 249818: [2022-Oct-25 17:26:19.570][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 100.760000s
+	Line 249873: [2022-Oct-25 17:26:27.653][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 7.776000s
+	Line 249939: [2022-Oct-25 17:26:37.684][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 250319: [2022-Oct-25 17:28:18.200][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 100.516000s
+	Line 250398: [2022-Oct-25 17:28:35.809][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 17.305000s
+	Line 250478: [2022-Oct-25 17:28:45.676][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 250858: [2022-Oct-25 17:30:25.829][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 100.153000s
+	Line 250875: [2022-Oct-25 17:30:29.351][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 3.217000s
+	Line 250953: [2022-Oct-25 17:30:38.867][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 251333: [2022-Oct-25 17:32:20.523][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.656000s
+	Line 251364: [2022-Oct-25 17:32:32.365][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 11.538000s
+	Line 251436: [2022-Oct-25 17:32:41.425][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 251822: [2022-Oct-25 17:34:24.612][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 103.187000s
+	Line 251853: [2022-Oct-25 17:34:34.158][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 9.241000s
+	Line 251919: [2022-Oct-25 17:34:43.231][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 252299: [2022-Oct-25 17:36:25.199][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.967000s
+	Line 252324: [2022-Oct-25 17:36:33.761][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 8.258000s
+	Line 252396: [2022-Oct-25 17:36:55.754][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 252776: [2022-Oct-25 17:38:37.502][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 101.748000s
+	Line 252792: [2022-Oct-25 17:39:09.165][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 31.358000s
+	Line 252858: [2022-Oct-25 17:39:20.145][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 253238: [2022-Oct-25 17:40:59.647][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 99.501000s
+	Line 253263: [2022-Oct-25 17:41:31.326][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 31.374000s
+	Line 253329: [2022-Oct-25 17:41:42.306][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
+	Line 253709: [2022-Oct-25 17:43:59.028][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For Tester Initialization: 136.722000s
+	Line 253734: [2022-Oct-25 17:44:30.703][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed: 31.370000s
+	Line 253803: [2022-Oct-25 17:44:53.678][I][HAL][DUT: DiagPkg_0_0][11072][DtsLogger::Info, Line 160] Time Elapsed For StopOther(): 0s
