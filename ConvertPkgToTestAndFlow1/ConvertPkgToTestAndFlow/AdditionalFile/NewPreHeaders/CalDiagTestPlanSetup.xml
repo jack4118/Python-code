@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces TestLibraryInterfaces.xsd">
+  <TestLibrary name="CalDiagTestPlanSetup">
+	  <Imports>
+	  <FileName>CalDiagTestBase.xml</FileName>
+	  </Imports>
+    <PublicBases><BaseName>CalDiagTestBase</BaseName></PublicBases>
+    <Parameters>
+      <Parameter  name="OperationMode" descriptions="Operation Mode select TestPlanStart or TestPlanEnd">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>TESTPLAN_START</Choice>
+          <Choice>TESTPLAN_END</Choice>
+        </Choices>
+        <Default>TESTPLAN_START</Default>
+        <Optional/>
+      </Parameter>
+    </Parameters>
+    <ExitPorts>
+			<ExitPort>
+          <PortNumber>-2</PortNumber>
+          <PortType>Fail</PortType>
+          <PortDescriptions>"PORT FOR ANY ALARM CONDITION"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>-1</PortNumber>
+          <PortType>Error</PortType>
+          <PortDescriptions>"PORT FOR ANY ERROR CONDITION"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>0</PortNumber>
+          <PortType>Fail</PortType>
+          <PortDescriptions>"FAIL PORT FOR ANY TEST FAILURE"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>1</PortNumber>
+          <PortType>Pass</PortType>
+          <PortDescriptions>"PASS PORT"</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>

@@ -1,0 +1,10 @@
+PreheaderFilePath = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConvertPkgToTestAndFlow/AdditionalFile/NewPreHeaders/'
+OtherFilePath = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConvertPkgToTestAndFlow/AdditionalFile/'
+PKGFilePath = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConvertPkgToTestAndFlow/AdditionalFile/hpcc2.pkg'
+ExportTest = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConvertPkgToTestAndFlow/AdditionalFile/Temp.test'
+ExportFlow = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConvertPkgToTestAndFlow/AdditionalFile/HPCC.flow'
+InputTest = ExportTest
+InputFlow = ExportFlow
+FinalConvertTest = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConvertPkgToTestAndFlow/AdditionalFile/HPCC.test'
+TestCommunicationInformation = 'C:/Users/cheelaml/OneDrive - Intel Corporation/Desktop/python/ConvertPkgToTestAndFlow/AdditionalFile/TestCommandInformation/'
+TestType = 'HPCC'

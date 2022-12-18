@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces TestLibraryInterfaces.xsd">
+  <TestLibrary name="CalDiagTestBase">
+    <TestClass name="CalDiagTestBase"></TestClass>
+    <Imports>
+    </Imports>
+    <PublicBases></PublicBases>
+    <Parameters>
+      <Parameter  name="BypassInstance" descriptions="Switch to bypass the execution of test instance">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>TRUE</Choice>
+          <Choice>FALSE</Choice>
+        </Choices>
+        <Default>FALSE</Default>
+        <Optional/>
+      </Parameter>
+      <Parameter  name="DataCollectionMode" descriptions="Switch to data collection mode of test instance">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>TRUE</Choice>
+          <Choice>FALSE</Choice>
+        </Choices>
+        <Default>FALSE</Default>
+        <Optional/>
+      </Parameter>
+
+      <Parameter  name="PreInstance" descriptions="Preinstance parameter which points to user function to execute pre exec">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Optional/>
+      </Parameter>
+      <Parameter  name="PostInstance" descriptions="Postinstance parameter which points to user function to execute post exec">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Optional/>
+      </Parameter>
+      <Parameter name="UserInputConfigFilePath" descriptions="Path to external xml for user defined config">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Optional/>
+      </Parameter>
+      <Parameter name="UserInputTestConfig" descriptions="Test config name in external xml for user defined parameters.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Optional/>
+      </Parameter>
+      <Parameter  name="Channels_CDT" descriptions="Channel(s) to be used during test exec">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default>0</Default>
+        <Optional/>
+      </Parameter>
+      <Parameter  name="Limits" descriptions="Target limit(s) to be loosen/tighten. Applicable to both LCL/UCL, value is specified in percentage. E.g. NOISE_VLC,-5;NOISE_HC,10">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Optional/>
+      </Parameter>
+      <Parameter  name="UserBase" descriptions="SIMS or Customer">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>SIMS</Choice>
+          <Choice>Customer</Choice>
+        </Choices>
+        <Default>SIMS</Default>
+        <Optional/>
+      </Parameter> 
+      <Parameter  name="MaxRetryCount" descriptions="The maximum number of times that a test instance attempts to re-execute and pass">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default>0</Default>
+        <Optional/>
+      </Parameter>
+      <Parameter  name="ContinueWithT1Alarms" descriptions="Switch to continue the execution of test instance even if T1 is triggered">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>TRUE</Choice>
+          <Choice>FALSE</Choice>
+        </Choices>
+        <Default>FALSE</Default>
+        <Optional/>
+      </Parameter>
+      <Parameter  name="AlarmCheckDuration" descriptions="The duration in second of the previous Tier1 entries to be made valid">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default>3600</Default>
+        <Optional/>
+      </Parameter>
+    </Parameters>
+    <ExitPorts>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>

@@ -1,0 +1,170 @@
+
+Version 1.0;
+
+BinDefs
+{
+    # A sample bdef file Based on HDMT_Sample_TP TPL :  
+    # The PassFailBins are an outermost level of bins.  
+    # They are not a refinement of any other bins.
+    
+    BinGroup PassFailBins
+    {
+        Bin Pass 0: "Count of Passing Devices";
+        Bin Fail 1: "Count of Failing Devices";
+    }
+
+    # The HardBins are a next level of refinement. 
+    # HardBins are a refinement of the PassFailBins  declared just before. 
+
+    
+    BinGroup HardBins
+    {
+        ## Bin Name             								   Bin Id      Bin Description                           Parent Bin name         
+ 
+        Bin b8_fail_dc                             				   0800         : "b8_fail_dc",                             Fail;
+ 
+        Bin b0100_pass                                             0100      : "b0100_pass",                             Pass;
+        Bin b0200_pass                                             0200      : "b0200_pass",                             Pass;
+        Bin b0834_FAIL_MB_BLT_TEST                                 0834      : "b0834_FAIL_MB_BLT_TEST",                 Fail;
+        Bin b0835_FAIL_PSDB_BLT_TEST                               0835      : "b0835_FAIL_PSDB_BLT_TEST",               Fail;
+        Bin b0869_FAIL_DPS_BLT_TEST                                0869      : "b0869_FAIL_DPS_BLT_TEST",                Fail;
+        Bin b1134_FAIL_MB_FPGA_TEST                                1134      : "b1134_FAIL_MB_FPGA_TEST",                Fail;
+        Bin b1135_FAIL_PSDB_FPGA_TEST                              1135      : "b1135_FAIL_PSDB_FPGA_TEST",              Fail;
+        Bin b1169_FAIL_DPS_FPGA_TEST                               1169      : "b1169_FAIL_DPS_FPGA_TEST",               Fail;
+        Bin b1234_FAIL_MB_CPLD_TEST                                1234      : "b1234_FAIL_MB_CPLD_TEST",                Fail;
+        Bin b1235_FAIL_PSDB_CPLD_TEST                              1235      : "b1235_FAIL_PSDB_CPLD_TEST",              Fail;
+        Bin b1269_FAIL_DPS_CPLD_TEST                               1269      : "b1269_FAIL_DPS_CPLD_TEST",               Fail;
+        Bin b4234_FAIL_MB_PCIE_TEST                                4234      : "b4234_FAIL_MB_PCIE_TEST",                Fail;
+        Bin b4235_FAIL_PSDB_PCIE_TEST                              4235      : "b4235_FAIL_PSDB_PCIE_TEST",              Fail;
+        Bin b4269_FAIL_DPS_PCIE_TEST                               4269      : "b4269_FAIL_DPS_PCIE_TEST",               Fail;
+        Bin b4334_FAIL_MB_VREG_TEST                                4334      : "b4334_FAIL_MB_VREG_TEST",                Fail;
+        Bin b4335_FAIL_PSDB_VREG_TEST                              4335      : "b4335_FAIL_PSDB_VREG_TEST",              Fail;
+        Bin b4369_FAIL_DPS_VREG_TEST                               4369      : "b4369_FAIL_DPS_VREG_TEST",               Fail;
+        Bin b4434_FAIL_MB_USB_TEST                                 4434      : "b4434_FAIL_MB_USB_TEST",                 Fail;
+        Bin b4435_FAIL_PSDB_USB_TEST                               4435      : "b4435_FAIL_PSDB_USB_TEST",               Fail;
+        Bin b4469_FAIL_DPS_USB_TEST                                4469      : "b4469_FAIL_DPS_USB_TEST",                Fail;		
+        Bin b4534_FAIL_MB_MEMORY_TEST                              4534      : "b4534_FAIL_MB_MEMORY_TEST",              Fail;
+        Bin b4535_FAIL_PSDB_MEMORY_TEST                            4535      : "b4535_FAIL_PSDB_MEMORY_TEST",            Fail;
+        Bin b4569_FAIL_DPS_MEMORY_TEST                             4569      : "b4569_FAIL_DPS_MEMORY_TEST",             Fail;
+        Bin b4734_FAIL_MB_TRIGGER_TEST                             4734      : "b4734_FAIL_MB_TRIGGER_TEST",             Fail;
+        Bin b4735_FAIL_PSDB_TRIGGER_TEST                           4735      : "b4535_FAIL_PSDB_TRIGGER_TEST",           Fail;
+        Bin b4769_FAIL_DPS_TRIGGER_TEST                            4769      : "b4769_FAIL_DPS_TRIGGER_TEST",            Fail;
+        Bin b4869_FAIL_DPS_DC_TEST                                 4869      : "b4869_FAIL_DPS_DC_TEST",                 Fail;
+        Bin b5034_FAIL_MB_DIGITAL_TEST                             5034      : "b5034_FAIL_MB_DIGITAL_TEST",             Fail;
+        Bin b5035_FAIL_PSDB_DIGITAL_TEST                           5035      : "b5035_FAIL_PSDB_DIGITAL_TEST",           Fail;
+        Bin b5134_FAIL_MB_TIMING_TEST                              5134      : "b5134_FAIL_MB_TIMING_TEST",              Fail;
+        Bin b5135_FAIL_PSDB_TIMING_TEST                            5135      : "b5135_FAIL_PSDB_TIMING_TEST",            Fail;
+        Bin b5234_FAIL_MB_ALARM_TEST                               5234      : "b5234_FAIL_MB_ALARM_TEST",               Fail;
+        Bin b5235_FAIL_PSDB_ALARM_TEST                             5235      : "b5235_FAIL_PSDB_ALARM_TEST",             Fail;
+        Bin b5269_FAIL_DPS_ALARM_TEST                              5269      : "b5269_FAIL_DPS_ALARM_TEST",              Fail;
+        Bin b5334_FAIL_MB_NOISE_TEST                               5334      : "b5334_FAIL_MB_NOISE_TEST",               Fail;
+        Bin b5335_FAIL_PSDB_NOISE_TEST                             5335      : "b5335_FAIL_PSDB_NOISE_TEST",             Fail;
+        Bin b5369_FAIL_DPS_NOISE_TEST                              5369      : "b5369_FAIL_DPS_NOISE_TEST",              Fail;
+        Bin b5434_FAIL_MB_LEAKAGE_TEST                             5434      : "b5434_FAIL_MB_LEAKAGE_TEST",             Fail;
+        Bin b5435_FAIL_PSDB_LEAKAGE_TEST                           5435      : "b5435_FAIL_PSDB_LEAKAGE_TEST",           Fail;
+        Bin b5469_FAIL_DPS_LEAKAGE_TEST                            5469      : "b5469_FAIL_DPS_LEAKAGE_TEST",            Fail;
+        Bin b5634_FAIL_MB_COMMUNICATION_TEST                       5634      : "b5634_FAIL_MB_COMMUNICATION_TEST",       Fail;
+        Bin b5635_FAIL_PSDB_COMMUNICATION_TEST                     5635      : "b5635_FAIL_PSDB_COMMUNICATION_TEST",     Fail;
+        Bin b5669_FAIL_DPS_COMMUNICATION_TEST                      5669      : "b5669_FAIL_DPS_COMMUNICATION_TEST",      Fail;
+        Bin b5734_FAIL_MB_COMPONENT_TEST                           5734      : "b5734_FAIL_MB_COMPONENT_TEST",           Fail;
+        Bin b5735_FAIL_PSDB_COMPONENT_TEST                         5735      : "b5735_FAIL_PSDB_COMPONENT_TEST",         Fail;
+        Bin b5769_FAIL_DPS_COMPONENT_TEST                          5769      : "b5769_FAIL_DPS_COMPONENT_TEST",          Fail;
+        Bin b5834_FAIL_MB_THERMAL_TEST                             5834      : "b5834_FAIL_MB_THERMAL_TEST",             Fail;
+        Bin b5835_FAIL_PSDB_THERMAL_TEST                           5835      : "b5835_FAIL_PSDB_THERMAL_TEST",           Fail;
+        Bin b5869_FAIL_DPS_THERMAL_TEST                            5869      : "b5869_FAIL_DPS_THERMAL_TEST",            Fail;
+        Bin b9834_FAIL_MB_SOFTWARE_EXCEPTION                       9834      : "b9834_FAIL_MB_SOFTWARE_EXCEPTION",       Fail;
+        Bin b9835_FAIL_PSDB_SOFTWARE_EXCEPTION                     9835      : "b9835_FAIL_PSDB_SOFTWARE_EXCEPTION",     Fail;
+        Bin b9869_FAIL_DPS_SOFTWARE_EXCEPTION                      9869      : "b9869_FAIL_DPS_SOFTWARE_EXCEPTION",      Fail;
+        Bin b9969_FAIL_DPS_TIER_E_ALARM                            9969      : "b9969_FAIL_DPS_TIER_E_ALARM",            Fail;
+        
+        Bin b69_fail_unassigned_port                    69          : "b69_fail_unassigned_port",               Fail;
+    }
+
+    # The SoftBins are a next level of refinement. 
+        # SoftBins are a refinement of HardBins declared just before
+
+    
+    BinGroup SoftBins
+    {
+        ## Bin Name                     										Bin Id      	Bin Description                 								  Parent Bin name 
+        
+        LeafBin b01000000_PASS                                   				01000000      : "b01000000_PASS",                            				      b0100_pass;
+		LeafBin b02000000_PASS                                   	            02000000      : "b02000000_PASS",                            		                  b0200_pass;	
+        LeafBin b806_fail_dps                             					    08000001      : "b806_fail_dps",                          				          b8_fail_dc;
+						                                                                                                                                       
+        LeafBin b08690001_FAIL_DPS_BLT_INVALID_AA                  				08690001      : "b08690001_FAIL_DPS_BLT_INVALID_AA",         				      b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690002_FAIL_DPS_BLT_INVALID_DEVICE_ID           				08690002      : "b08690002_FAIL_DPS_BLT_INVALID_DEVICE_ID",  				      b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690003_FAIL_DPS_BLT_INVALID_DEVICE_NAME       				08690003      : "b08690003_FAIL_DPS_BLT_INVALID_DEVICE_NAME",				      b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690004_FAIL_DPS_BLT_INVALID_MFG_DATE         				08690004      : "b08690004_FAIL_DPS_BLT_INVALID_MFG_DATE",   				      b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690005_FAIL_DPS_BLT_INVALID_MFG_ID              				08690005      : "b08690005_FAIL_DPS_BLT_INVALID_MFG_ID",     				      b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690006_FAIL_DPS_BLT_INVALID_SN                  				08690006      : "b08690006_FAIL_DPS_BLT_INVALID_SN",         				      b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690007_FAIL_DPS_BLT_INVALID_VENDOR_ID           				08690007      : "b08690007_FAIL_DPS_BLT_INVALID_VENDOR_ID",            			  b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690008_FAIL_DPS_BLT_INVALID_VENDOR_NAME         				08690008      : "b08690008_FAIL_DPS_BLT_INVALID_VENDOR_NAME",          			  b0869_FAIL_DPS_BLT_TEST;
+        LeafBin b08690009_FAIL_DPS_BLT_MISMATCH_BIT_DROP        				08690009      : "b08690009_FAIL_DPS_BLT_MISMATCH_BIT_DROP",            			  b0869_FAIL_DPS_BLT_TEST;
+			                                                                                                                                                      
+        LeafBin b11690001_FAIL_DPS_FPGA_VERSION_MISMATCH            			11690001      : "b11690001_FAIL_DPS_FPGA_VERSION_MISMATCH",            			  b1169_FAIL_DPS_FPGA_TEST;
+        LeafBin b11690002_FAIL_DPS_FPGA_PROGRAMMING                 			11690002      : "b11690002_FAIL_DPS_FPGA_PROGRAMMING",            				  b1169_FAIL_DPS_FPGA_TEST;	
+																							                                                                      
+        LeafBin b12690001_FAIL_DPS_CPLD_VERSION_MISMATCH            			12690001      : "b12690001_FAIL_DPS_CPLD_VERSION_MISMATCH",       				  b1269_FAIL_DPS_CPLD_TEST;
+        LeafBin b12690002_FAIL_DPS_CPLD_PROGRAMMING                 			12690002      : "b12690002_FAIL_DPS_CPLD_PROGRAMMING",            				  b1269_FAIL_DPS_CPLD_TEST;	
+																			
+        LeafBin b42690001_FAIL_DPS_PCIE_DEVICE_NOT_FOUND            			42690001      : "b42690001_FAIL_DPS_PCIE_TEST",           						  b4269_FAIL_DPS_PCIE_TEST;
+																			
+        LeafBin b43690001_FAIL_DPS_VREG_PRESENCE                    			43690001      : "b43690001_FAIL_DPS_VREG_MOOR",            					      b4369_FAIL_DPS_VREG_TEST;	
+        LeafBin b43690002_FAIL_DPS_VREG_MOOR                        			43690002      : "b43690002_FAIL_DPS_VREG_MOOR",            					      b4369_FAIL_DPS_VREG_TEST;
+        LeafBin b43690003_FAIL_DPS_VREG_MOOR_NOISE_MEAN             			43690003      : "b43690003_FAIL_DPS_VREG_MOOR_NOISE_MEAN",                        b4369_FAIL_DPS_VREG_TEST;
+        LeafBin b43690004_FAIL_DPS_VREG_MOOR_NOISE_STD_DEV          			43690004      : "b43690004_FAIL_DPS_VREG_MOOR_NOISE_STD_DEV",                     b4369_FAIL_DPS_VREG_TEST;	
+        LeafBin b43690005_FAIL_DPS_VREG_MOOR_COMMUNICATION          			43690005      : "b43690005_FAIL_DPS_VREG_MOOR_COMMUNICATION",                     b4369_FAIL_DPS_VREG_TEST;	
+																				                                                                                  
+        LeafBin b44690001_FAIL_DPS_USB_DEVICE_NOT_FOUND             			44690001      : "b44690001_FAIL_DPS_USB_DEVICE_NOT_FOUND",                        b4469_FAIL_DPS_USB_TEST;		
+																				
+        LeafBin b45690001_FAIL_DPS_MEMORY_PRESENCE                  			45690001      : "b45690001_FAIL_DPS_MEMORY_PRESENCE",                             b4569_FAIL_DPS_MEMORY_TEST;		
+        LeafBin b45690002_FAIL_DPS_MEMORY_OVERFLOW                  			45690002      : "b45690002_FAIL_DPS_MEMORY_OVERFLOW",                             b4569_FAIL_DPS_MEMORY_TEST;	
+        LeafBin b45690003_FAIL_DPS_MEMORY_DATA_MISMATCH             			45690003      : "b45690003_FAIL_DPS_MEMORY_DATA_MISMATCH",                        b4569_FAIL_DPS_MEMORY_TEST;		
+																			
+        LeafBin b48690001_FAIL_DPS_DC_MOOR                          			48690001      : "b48690001_FAIL_DPS_DC_MOOR",            			              b4869_FAIL_DPS_DC_TEST;	
+        LeafBin b48690002_FAIL_DPS_DC_NOISE_MEAN                    			48690002      : "b48690002_FAIL_DPS_DC_NOISE_MEAN",      			              b4869_FAIL_DPS_DC_TEST;	
+        LeafBin b48690003_FAIL_DPS_DC_NOISE_STD_DEV                 			48690003      : "b48690003_FAIL_DPS_DC_NOISE_STD_DEV",   			              b4869_FAIL_DPS_DC_TEST;	
+        LeafBin b48690004_FAIL_DPS_DC_ALARM                         			48690004      : "b48690004_FAIL_DPS_DC_ALARM",   		        	              b4869_FAIL_DPS_DC_TEST;	        
+																						                                                                         
+        LeafBin b52690001_FAIL_DPS_ALARM_VCLAMP                     			52690001      : "b52690001_FAIL_DPS_ALARM_VCLAMP",       			              b5269_FAIL_DPS_ALARM_TEST;	
+        LeafBin b52690002_FAIL_DPS_ALARM_ICLAMP                     			52690002      : "b52690002_FAIL_DPS_ALARM_ICLAMP",       			              b5269_FAIL_DPS_ALARM_TEST;		
+																						
+        LeafBin b53690001_FAIL_DPS_NOISE_MEAN_TLI4970               			53690001      : "b53690001_FAIL_DPS_NOISE_MEAN_TLI4970", 			              b5369_FAIL_DPS_NOISE_TEST;	
+        LeafBin b53690002_FAIL_DPS_NOISE_STD_DEV_TLI4970            			53690002      : "b53690002_FAIL_DPS_NOISE_STD_DEV_TLI4970",                       b5369_FAIL_DPS_NOISE_TEST;		
+        
+        LeafBin b56690001_FAIL_DPS_COMMUNICATION_PATTERN_MISMATCH_FT240X        56690001      : "b56690001_FAIL_DPS_COMMUNICATION_PATTERN_MISMATCH_FT240X",       b5669_FAIL_DPS_COMMUNICATION_TEST;	
+        LeafBin b56690002_FAIL_DPS_COMMUNICATION_BER_MISMATCH_FT240             56690002      : "b56690002_FAIL_DPS_COMMUNICATION_BER_MISMATCH_FT240",            b5669_FAIL_DPS_COMMUNICATION_TEST;	
+        LeafBin b56690003_FAIL_DPS_COMMUNICATION_PATTERN_MISMATCH_LTM4680       56690003      : "b56690003_FAIL_DPS_COMMUNICATION_PATTERN_MISMATCH_LTM4680",      b5669_FAIL_DPS_COMMUNICATION_TEST;	
+        LeafBin b56690004_FAIL_DPS_COMMUNICATION_BER_MISMATCH_LTM4680           56690004      : "b56690004_FAIL_DPS_COMMUNICATION_BER_MISMATCH_LTM4680",          b5669_FAIL_DPS_COMMUNICATION_TEST;		
+        LeafBin b56690005_FAIL_DPS_COMMUNICATION_PATTERN_MISMATCH_LTC2975       56690005      : "b56690005_FAIL_DPS_COMMUNICATION_PATTERN_MISMATCH_LTC2975",      b5669_FAIL_DPS_COMMUNICATION_TEST;	
+        LeafBin b56690006_FAIL_DPS_COMMUNICATION_BER_MISMATCH_LTC2975           56690006      : "b56690006_FAIL_DPS_COMMUNICATION_BER_MISMATCH_LTC2975",          b5669_FAIL_DPS_COMMUNICATION_TEST;		
+        LeafBin b56690007_FAIL_DPS_COMMUNICATION_BER_MISMATCH_AD5676            56690007      : "b56690007_FAIL_DPS_COMMUNICATION_BER_MISMATCH_AD5676",           b5669_FAIL_DPS_COMMUNICATION_TEST;	
+        LeafBin b56690008_FAIL_DPS_COMMUNICATION_BER_MISMATCH_AD7616            56690008      : "b56690008_FAIL_DPS_COMMUNICATION_BER_MISMATCH_AD7616",           b5669_FAIL_DPS_COMMUNICATION_TEST;	
+	    
+        LeafBin b57690001_FAIL_DPS_COMPONENT_TLI4970                      	    57690001      : "b57690001_FAIL_DPS_COMPONENT_ADT7411",         				  b5769_FAIL_DPS_COMPONENT_TEST;		
+        LeafBin b57690002_FAIL_DPS_COMPONENT_AD5676                       	    57690002      : "b57690002_FAIL_DPS_COMPONENT_AD5676",          				  b5769_FAIL_DPS_COMPONENT_TEST;		
+        LeafBin b57690003_FAIL_DPS_COMPONENT_AD7616                       	    57690003      : "b57690003_FAIL_DPS_COMPONENT_AD7616",          				  b5769_FAIL_DPS_COMPONENT_TEST;	
+        LeafBin b57690004_FAIL_DPS_COMPONENT_LTC2975                      	    57690004      : "b57690004_FAIL_DPS_COMPONENT_LTC2975",         				  b5769_FAIL_DPS_COMPONENT_TEST;		
+        LeafBin b57690005_FAIL_DPS_COMPONENT_LTM4680                      	    57690005      : "b57690005_FAIL_DPS_COMPONENT_LTM4680",         				  b5769_FAIL_DPS_COMPONENT_TEST;		
+	    
+        LeafBin b58690001_FAIL_DPS_THERMAL_MOOR                                 58690001      : "b58690001_FAIL_DPS_THERMAL_MOOR",              				  b5869_FAIL_DPS_THERMAL_TEST;	
+        LeafBin b58690002_FAIL_DPS_THERMAL_NOISE_MEAN                           58690002      : "b58690002_FAIL_DPS_THERMAL_NOISE_MEAN",            			  b5869_FAIL_DPS_THERMAL_TEST;		
+        LeafBin b58690003_FAIL_DPS_THERMAL_NOISE_STD_DEV                        58690003      : "b58690003_FAIL_DPS_THERMAL_NOISE_STD_DEV",           			  b5869_FAIL_DPS_THERMAL_TEST;			
+	    
+	    
+        LeafBin b98690001_FAIL_DPS_SOFTWARE_EXCEPTION_HIL                       98690001      : "b98690001_FAIL_DPS_SOFTWARE_EXCEPTION_HIL",            		  b9869_FAIL_DPS_SOFTWARE_EXCEPTION;
+        LeafBin b98690002_FAIL_DPS_SOFTWARE_EXCEPTION_I2L                       98690002      : "b98690002_FAIL_DPS_SOFTWARE_EXCEPTION_I2L",            		  b9869_FAIL_DPS_SOFTWARE_EXCEPTION;		
+        LeafBin b98690003_FAIL_DPS_SOFTWARE_EXCEPTION_WINDOW_API                98690003      : "b98690003_FAIL_DPS_SOFTWARE_EXCEPTION_WINDOW_API",     		  b9869_FAIL_DPS_SOFTWARE_EXCEPTION;	
+        LeafBin b98690004_FAIL_DPS_SOFTWARE_EXCEPTION_INVALID_PARAM             98690004      : "b98690004_FAIL_DPS_SOFTWARE_EXCEPTION_INVALID_PARAM",  		  b9869_FAIL_DPS_SOFTWARE_EXCEPTION;			
+        LeafBin b98690005_FAIL_DPS_SOFTWARE_EXCEPTION_DIAG                      98690005      : "b98690005_FAIL_DPS_SOFTWARE_EXCEPTION_DIAG",        		  b9869_FAIL_DPS_SOFTWARE_EXCEPTION;			
+        LeafBin b98690006_FAIL_DPS_SOFTWARE_EXCEPTION_GENERIC                   98690006      : "b98690006_FAIL_DPS_SOFTWARE_EXCEPTION_GENERIC",        		  b9869_FAIL_DPS_SOFTWARE_EXCEPTION;					                                                                                                                                                  
+				                                                                                                                                                  
+        LeafBin b99690001_FAIL_DPS_TIER_E_ALARM_VCLAMP                          99690001      : "b99690001_FAIL_DPS_TIER_E_ALARM_VCLAMP",           			  b9969_FAIL_DPS_TIER_E_ALARM;	
+        LeafBin b99690002_FAIL_DPS_TIER_E_ALARM_ICLAMP                          99690002      : "b99690002_FAIL_DPS_TIER_E_ALARM_ICLAMP",           			  b9969_FAIL_DPS_TIER_E_ALARM;		
+        LeafBin b99690003_FF_DPS_TIER_E_ALARM_KELVIN                          99690003      : "b99690003_FF_DPS_TIER_E_ALARM_KELVIN",           			  b9969_FAIL_DPS_TIER_E_ALARM;			
+        
+        LeafBin b6901_FAIL_ERROR                             6901        : "b6901_FAIL_ERROR",                          b69_fail_unassigned_port;
+    }		                                                                                                                                                      
+SortBinGroup = HardBins;
+}

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces TestLibraryInterfaces.xsd">
+  <TestLibrary name="CalDiagDummyTestClass">
+	  <Imports>
+	  <FileName>CalDiagTestBase.xml</FileName>
+	  </Imports>
+    <PublicBases><BaseName>CalDiagTestBase</BaseName></PublicBases>
+
+	
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="SamplingRatio" descriptions="SamplingRatio">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="ExpectedReading" descriptions="ExpectedReading">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="OPMode" descriptions="OPMode">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="ForceStart" descriptions="ForceStart">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VRange" descriptions="VRange">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IRange" descriptions="IRange">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IClampHi" descriptions="IClampHi">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IClampLo" descriptions="IClampLo">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="SamplingMode" descriptions="SamplingMode">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="SamplingCount" descriptions="SamplingCount">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="SamplingInterval" descriptions="SamplingInterval">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="PreMeasurementDelay" descriptions="PreMeasurementDelay">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="OPMode1" descriptions="OPMode1">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="OPMode2" descriptions="OPMode2">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VForceLo" descriptions="VForceLo">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VForceHi" descriptions="VForceHi">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IsCalibrated" descriptions="IsCalibrated">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="PatternName" descriptions="PatternName">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="PatExecTimeOut" descriptions="PatExecTimeOut">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="FpgaToBeTested" descriptions="FpgaToBeTested">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="TestPoint" descriptions="TestPoint">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="PinClockPeriod" descriptions="PinClockPeriod">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="PinModeSel" descriptions="PinModeSel">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="TermMode" descriptions="TermMode">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="TermVRef" descriptions="TermVRef">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VCL" descriptions="VCL">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VCH" descriptions="VCH">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VOX" descriptions="VOX">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="DriveDelay" descriptions="DriveDelay">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="CompareDelay" descriptions="CompareDelay">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VIH" descriptions="VIH">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="VIL" descriptions="VIL">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IOH" descriptions="IOH">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IOL" descriptions="IOL">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Ratio" descriptions="Ratio">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="TRise" descriptions="TRise">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="TFall" descriptions="TFall">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="DelayStart" descriptions="DelayStart">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IsKillMode" descriptions="IsKillMode">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="MaxTemperatureChange" descriptions="MaxTemperatureChange">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="ProgrammingFile" descriptions="ProgrammingFile">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="ExpectedVersion" descriptions="ExpectedVersion">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="DataWritten" descriptions="DataWritten">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Fpga" descriptions="Fpga">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="ReadBarOnly" descriptions="ReadBarOnly">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Bar" descriptions="Bar">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="DataExpected" descriptions="DataExpected">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="StartBit" descriptions="StartBit">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="EndBit" descriptions="EndBit">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="PinList" descriptions="PinList">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Resolution" descriptions="Resolution">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="IRDrop" descriptions="IRDrop">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Offset" descriptions="Offset">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Gain" descriptions="Gain">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="BER" descriptions="BER">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="BERLoops" descriptions="BERLoops">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="CardList" descriptions="CardList">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Filename" descriptions="Filename">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="HELPFILE" descriptions="HELPFILE">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Table" descriptions="Table">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="LoopNum" descriptions="LoopNum">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="MemorySize_GB" descriptions="MemorySize_GB">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="PatternSize_MB" descriptions="PatternSize_MB">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="FpgaIndex" descriptions="FpgaIndex">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="ACFPGAVersion" descriptions="ACFPGAVersion">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Reprogram" descriptions="Reprogram">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="FpgaFile" descriptions="FpgaFile">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="UnloadHalAfterTest" descriptions="UnloadHalAfterTest">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="SiCalBasePresent" descriptions="SiCalBasePresent">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+		<Parameter  name="Version" descriptions="Version">
+			<Type>
+				<Tester>String</Tester>
+				<TestProgram>String</TestProgram>
+			</Type>
+			<Optional/>
+		</Parameter>
+
+      <Parameter  name="TestOperation" descriptions="If True, will force a reload of the DLL before executing.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+
+		<Choices>
+			<Choice>DisplayMsg</Choice>
+		</Choices>
+		<Default>HPCC2___DMMConnectionCheck___DMMConnectionCheck</Default>
+        <Optional/>
+      </Parameter>
+
+	</Parameters>
+    <ExitPorts>
+			<ExitPort>
+          <PortNumber>-2</PortNumber>
+          <PortType>Fail</PortType>
+          <PortDescriptions>"PORT FOR ANY ALARM CONDITION"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>-1</PortNumber>
+          <PortType>Error</PortType>
+          <PortDescriptions>"PORT FOR ANY ERROR CONDITION"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>0</PortNumber>
+          <PortType>Fail</PortType>
+          <PortDescriptions>"FAIL PORT FOR ANY TEST FAILURE"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>1</PortNumber>
+          <PortType>Pass</PortType>
+          <PortDescriptions>"PASS PORT"</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>
