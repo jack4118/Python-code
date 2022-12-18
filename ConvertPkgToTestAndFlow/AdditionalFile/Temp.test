@@ -1,0 +1,39 @@
+Version 1.0;
+ProgramStyle = Modular;
+
+TestPlan HPCC;
+
+Import CalDiagDummyTestClass.xml;
+Import CalDiagInit.xml;
+Import CalDiagLotOperation.xml;
+Import CalDiagTestPlanSetup.xml;
+Import CalDiagDummyTP.bdefs;
+Import CalDiagDummyTP.usrv;
+
+Test CalDiagDummyTestClass DummyTestDivide
+{
+    Number2  = "1.0";
+    Number1  = "2.0";
+    TestOperation = "";
+}
+
+Test CalDiagDummyTestClass Multiply
+{
+    Number2  = "3.0";
+    Number1  = "4.0";
+    TestOperation = "";
+}
+
+Test CalDiagDummyTestClass Minus
+{
+    Number1  = "5.0";
+    Number2  = "6.0";
+    TestOperation = "";
+}
+
+Test CalDiagDummyTestClass Add
+{
+    Number2  = "7.0";
+    Number1  = "8.0";
+    TestOperation = "";
+}
