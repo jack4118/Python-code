@@ -1,0 +1,5 @@
+TESTFLOW_START:HpccTestFlow
+CalDiagDummyTestClass DummyTestDivide
+    -4 Return -4
+    -4 IncrementCounters FF_HVDPS2_5_TIER_1_ALARM
+    -4 SetBin SoftBins.b99730002_FF_HVDPS2_5_TIER_1_ALARM

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces TestLibraryInterfaces.xsd">
+  <TestLibrary name="CalDiagInit">
+	  <Imports>
+	  <FileName>CalDiagTestBase.xml</FileName>
+	  </Imports>
+    <PublicBases><BaseName>CalDiagTestBase</BaseName></PublicBases>
+    <Parameters>
+       <Parameter name="VerifyAll_Instances" descriptions="If this flag is enabled then Init test class will run verify on all test instances in the Test Program" >
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+        <Choice>DISABLED</Choice>
+        <Choice>ENABLED</Choice>
+        </Choices>
+        <Default>ENABLED</Default>
+        <Optional/>
+        </Parameter>
+    </Parameters>
+    <ExitPorts>
+			<ExitPort>
+          <PortNumber>-2</PortNumber>
+          <PortType>Fail</PortType>
+          <PortDescriptions>"PORT FOR ANY ALARM CONDITION"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>-1</PortNumber>
+          <PortType>Error</PortType>
+          <PortDescriptions>"PORT FOR ANY ERROR CONDITION"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>0</PortNumber>
+          <PortType>Fail</PortType>
+          <PortDescriptions>"FAIL PORT FOR ANY TEST FAILURE"</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+          <PortNumber>1</PortNumber>
+          <PortType>Pass</PortType>
+          <PortDescriptions>"PASS PORT"</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>

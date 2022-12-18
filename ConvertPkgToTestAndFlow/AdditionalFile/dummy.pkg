@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "xmlpkg.dtd">
+
+
+<package name="newpkgname">
+  <version executive="gDTS" executive_version="2.0.0.0" os="Windows">2.1</version>
+  <modules>
+    <device name="DummyTest" binary="" timeout="60" configurable="no">
+      <param name="Number2" value=""/>
+      <param name="Number1" value=""/>
+      <test name="Divide" binary="diagproxy.exe" number="divide" timeout="60" destructive="no" interactive="no" type="generic" disabled="no" configurable="no">
+        <param name="Number2" value="1.0"/>
+        <param name="Number1" value="2.0"/>
+      </test>
+      <test name="Multiply" binary="diagproxy.exe" number="multiply" timeout="60" destructive="no" interactive="no" type="generic" disabled="no" configurable="no">
+        <param name="Number2" value="3.0"/>
+        <param name="Number1" value="4.0"/>
+      </test>
+      <test name="Minus" binary="diagproxy.exe" number="subtract" timeout="60" destructive="no" interactive="no" type="generic" disabled="no" configurable="no">
+        <param name="Number1" value="5.0"/>
+        <param name="Number2" value="6.0"/>
+      </test>
+      <test name="Add" binary="diagproxy.exe" number="add" timeout="60" destructive="no" interactive="no" type="generic" disabled="no" configurable="no">
+        <param name="Number2" value="7.0"/>
+        <param name="Number1" value="8.0"/>
+      </test>
+    </device>
+  </modules>
+  <flows>
+    <flow name="Template_Flow">
+      <test ref="/package/modules/device[@name='DummyTest' or @cloneof='DummyTest']/test[@name='Add']" name="Add"/>
+      <test ref="/package/modules/device[@name='DummyTest' or @cloneof='DummyTest']/test[@name='Minus']" name="Minus"/>
+      <test ref="/package/modules/device[@name='DummyTest' or @cloneof='DummyTest']/test[@name='Divide']" name="Divide"/>
+      <test ref="/package/modules/device[@name='DummyTest' or @cloneof='DummyTest']/test[@name='Multiply']" name="Multiply"/>
+    </flow>
+  </flows>
+  <configurations/>
+</package>
+

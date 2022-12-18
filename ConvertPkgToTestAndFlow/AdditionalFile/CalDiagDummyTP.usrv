@@ -1,0 +1,16 @@
+Version 1.0;
+
+UserVars
+{
+    String EnableTestTimeProfiler = "false";
+    String EnableDataCollection = "false";
+    #String EnableSdr = "false"; #if uservar does not exist, then sdr will be run by default.
+}
+
+UserVars SCVars
+{
+	String SC_CALDIAGS_PKG = "";
+	String SC_SIMS_SYSID = "";
+	String SC_SIMS_MESID = "";
+    String SC_LOOP_COUNT = "3";
+}
